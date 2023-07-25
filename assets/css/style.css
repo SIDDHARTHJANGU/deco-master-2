@@ -524,18 +524,17 @@ ul {
 .yello-1 {
   position: absolute;
   left: 12%;
-  top: 22%;
+  top: 11%;
   z-index: 1;
 }
 .pink-1 {
   position: absolute;
   right: 16%;
-  bottom: 33%;
 }
 .mix-img {
   position: absolute;
   left: 7%;
-  bottom: 30%;
+  top: -14%;
 }
 .blue {
   position: absolute;

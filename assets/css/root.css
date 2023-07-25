@@ -63,7 +63,7 @@
     --fs-lg: 33px;
     --fs-md: 20px;
     --fs-sm: 18px;
-    --fs-xsm: 16px;
+    --fs-xsm: 14px;
   }
 }
 @media (min-width: 1200px) {
@@ -75,6 +75,6 @@
     --fs-lg: 36px;
     --fs-md: 24px;
     --fs-sm: 20px;
-    --fs-xsm: 18px;
+    --fs-xsm: 16px;
   }
 }

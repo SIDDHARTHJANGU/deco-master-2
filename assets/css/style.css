@@ -525,7 +525,7 @@ ul {
   position: absolute;
   left: 12%;
   top: 22%;
-  z-index: -1;
+  z-index: 1;
 }
 .pink-1 {
   position: absolute;
@@ -665,6 +665,9 @@ ul {
 @media (min-width: 320px) {
   .bordr-right {
     border-right: 0;
+  }
+  .pt-150 {
+    padding-top: 0;
   }
   .box-3 {
     width: 100%;

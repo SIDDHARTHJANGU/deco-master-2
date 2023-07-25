@@ -508,12 +508,14 @@ ul {
 }
 .section5_round_image {
   transition: all 200ms ease-in-out;
+  cursor: pointer;
 }
 .section5_round_image:hover {
   transform: scale(0.9);
 }
 .mask-1 {
   transition: all 0.5 ease-in-out;
+  cursor: pointer;
 }
 .mask-1:hover {
   transform: scale(0.9);
@@ -593,12 +595,14 @@ ul {
   border-radius: 25px;
   height: 100%;
   transition: all 600ms;
+  cursor: pointer;
 }
 .girl_image:hover {
   scale: 120%;
 }
 .ellip-img {
   transition: all 300ms ease-in-out;
+  cursor: pointer;
 }
 .ellip-img:hover {
   transform: scale(0.9);

@@ -665,6 +665,13 @@ ul {
   .bordr-right {
     border-right: 0;
   }
+  .section7_box {
+    background: #eeeeee;
+    border-radius: 0px;
+    padding: 54px 30px;
+    height: auto;
+    width: 100%;
+  }
   .pt-150 {
     padding-top: 0;
   }
@@ -819,6 +826,12 @@ ul {
   }
 }
 @media (min-width: 992px) {
+  .pt_lg_115px {
+    padding-top: 115px;
+  }
+  .pb_lg_115px {
+    padding-bottom: 115px;
+  }
   .grid_itm1 {
     grid-row: 1/2;
     grid-column: 1/2;
@@ -891,5 +904,316 @@ ul {
   }
   .f-colm {
     flex-direction: row;
+  }
+}
+
+/* main-section-6*/
+.section6_para1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 96px;
+  color: #010080;
+}
+.section6_para2 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 72px;
+  color: #000000;
+}
+.section6_para3 {
+  max-width: 471px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: justify;
+  color: #000000;
+}
+.read_more_btn {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: justify;
+  color: #ffffff;
+  padding: 11px 34px;
+  display: inline-block;
+  background: #010080;
+  border-radius: 4px;
+}
+.pb_lg_24px {
+  padding-bottom: 24px;
+}
+.pb_lg_16px {
+  padding-bottom: 16px;
+}
+.z_index_1 {
+  position: absolute;
+  z-index: -2;
+}
+.section6box {
+  overflow: hidden;
+  border-radius: 30px;
+  height: 100%;
+  cursor: pointer;
+}
+img[alt="section6_image"] {
+  transition: all 200ms ease-in-out;
+}
+img[alt="section6_image"]:hover {
+  transform: scale(1.2);
+}
+
+/* main-section-6-end*/
+img[alt="section7_image"] {
+  transition: all 200ms ease-in-out;
+}
+img[alt="section7_image"]:hover {
+  transform: scale(1.2);
+}
+img[alt="section8_image"] {
+  transition: all 200ms ease-in-out;
+}
+img[alt="section8_image"]:hover {
+  transform: scale(1.2);
+}
+/* main-section-7-end*/
+/* main-section-6-media-query*/
+@media (min-width: 320px) {
+  .lh_xs_30px {
+    line-height: 30px;
+  }
+  .section6_box {
+    background: #eeeeee;
+    border-radius: 0px;
+    padding: 54px 30px;
+    height: auto;
+    width: 100%;
+  }
+}
+@media (min-width: 568px) {
+  .section6_box {
+    background: #eeeeee;
+    border-radius: 0px;
+    padding: 54px 30px;
+    height: auto;
+    width: 100%;
+  }
+  .section6_absolute {
+    position: none;
+    top: 30px;
+    left: 3%;
+    z-index: -1;
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .section6_box {
+    background: #eeeeee;
+    border-radius: 0px;
+    padding: 54px 30px;
+    height: auto;
+    width: 100%;
+  }
+  .section6_absolute {
+    position: none;
+    top: 30px;
+    left: 3%;
+    z-index: -1;
+    width: 100%;
+  }
+}
+@media (min-width: 992px) {
+  .section6_box {
+    background: #eeeeee;
+    border-radius: 40px;
+    padding: 54px 30px;
+    height: auto;
+    width: 100%;
+  }
+  .section6_absolute {
+    position: absolute;
+    top: -255px;
+    left: 3%;
+    z-index: -1;
+    width: 93%;
+  }
+}
+@media (min-width: 1200px) {
+  .mw_xl_400px {
+    max-width: 400px;
+  }
+  .section6_box {
+    background: #eeeeee;
+    border-radius: 40px;
+    padding: 54px 60px;
+    height: auto;
+    width: 100%;
+  }
+  .section6_absolute {
+    position: absolute;
+    top: -263px;
+    left: 4%;
+    z-index: -1;
+    width: 94%;
+  }
+}
+@media (min-width: 1400px) {
+  .mw .section6_box {
+    background: #eeeeee;
+    border-radius: 40px;
+    padding: 54px 50px;
+    height: auto;
+    width: 100%;
+  }
+  .section6_absolute {
+    position: absolute;
+    top: -285px;
+    left: 5%;
+    z-index: -1;
+    width: 95%;
+  }
+}
+@media (min-width: 1600px) {
+  .section6_box {
+    background: #eeeeee;
+    border-radius: 40px;
+    padding: 54px 50px;
+    height: auto;
+    width: 100%;
+  }
+  .section6_absolute {
+    position: absolute;
+    top: -285px;
+    left: 10%;
+    z-index: -1;
+    width: 89%;
+  }
+}
+/* main-section-6-media-end*/
+/* main-section-7*/
+@media (min-width: 320px) {
+  .section7_box {
+    background: #eeeeee;
+    border-radius: 0px;
+    padding: 54px 30px;
+    height: auto;
+    width: 100%;
+  }
+}
+@media (min-width: 568px) {
+  img[alt="section7_color_image"] {
+    position: absolute;
+    left: 79%;
+  }
+  .section7_box {
+    background: #eeeeee;
+    border-radius: 0px;
+    padding: 54px 30px;
+    height: auto;
+    width: 100%;
+  }
+  .section7_absolute {
+    position: none;
+    top: 30px;
+    right: 3%;
+    z-index: -1;
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .section7_box {
+    background: #eeeeee;
+    border-radius: 0px;
+    padding: 54px 30px;
+    height: auto;
+    width: 100%;
+  }
+  .section7_absolute {
+    position: none;
+    top: 30px;
+    right: 3%;
+    z-index: -1;
+    width: 100%;
+  }
+}
+@media (min-width: 992px) {
+  img[alt="section8_color_image"] {
+    position: absolute;
+    z-index: 2;
+    top: -23%;
+    left: -21%;
+  }
+  .section7_box {
+    background: #eeeeee;
+    border-radius: 40px;
+    padding: 54px 30px;
+    height: auto;
+    width: 100%;
+  }
+  .section7_absolute {
+    position: absolute;
+    top: -255px;
+    right: 3%;
+    z-index: -1;
+    width: 93%;
+  }
+}
+@media (min-width: 1200px) {
+  .section7_box {
+    background: #eeeeee;
+    border-radius: 40px;
+    padding: 54px 60px;
+    height: auto;
+    width: 100%;
+  }
+  .section7_absolute {
+    position: absolute;
+    top: -263px;
+    right: 4%;
+    z-index: -1;
+    width: 94%;
+  }
+}
+@media (min-width: 1400px) {
+  .mw .section7_box {
+    background: #eeeeee;
+    border-radius: 40px;
+    padding: 54px 50px;
+    height: auto;
+    width: 100%;
+  }
+  .section7_absolute {
+    position: absolute;
+    top: -285px;
+    right: 5%;
+    z-index: -1;
+    width: 95%;
+  }
+}
+@media (min-width: 1600px) {
+  img[alt="section8_color_image"] {
+    position: absolute;
+    z-index: 1;
+    top: -23%;
+    left: -21%;
+  }
+  .section7_box {
+    background: #eeeeee;
+    border-radius: 40px;
+    padding: 54px 50px;
+    height: auto;
+    width: 100%;
+  }
+  .section7_absolute {
+    position: absolute;
+    top: -285px;
+    right: 10%;
+    z-index: -1;
+    width: 89%;
   }
 }

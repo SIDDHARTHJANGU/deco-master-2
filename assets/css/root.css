@@ -1,12 +1,12 @@
 :root {
   /* font-size */
   --fs-head: 26px;
-  --fs-xxl: 40px;
+  --fs-xxl: 42px;
   --fs-xl: 42px;
   --fs-lg: 24px;
   --fs-md: 17px;
   --fs-sm: 14px;
-  --fs-xsm: 12px;
+  --fs-xsm: 13px;
 }
 .fs-head {
   font-size: var(--fs-head);
@@ -75,6 +75,6 @@
     --fs-lg: 36px;
     --fs-md: 24px;
     --fs-sm: 20px;
-    --fs-xsm: 16px;
+    --fs-xsm: 18px;
   }
 }

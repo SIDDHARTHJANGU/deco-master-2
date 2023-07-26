@@ -1106,10 +1106,6 @@ img[alt="section8_image"]:hover {
   }
 }
 @media (min-width: 568px) {
-  img[alt="section7_color_image"] {
-    position: absolute;
-    left: 79%;
-  }
   .section7_box {
     background: #eeeeee;
     border-radius: 0px;
@@ -1142,12 +1138,6 @@ img[alt="section8_image"]:hover {
   }
 }
 @media (min-width: 992px) {
-  img[alt="section8_color_image"] {
-    position: absolute;
-    z-index: 2;
-    top: -23%;
-    left: -21%;
-  }
   .section7_box {
     background: #eeeeee;
     border-radius: 40px;
@@ -1196,12 +1186,6 @@ img[alt="section8_image"]:hover {
   }
 }
 @media (min-width: 1600px) {
-  img[alt="section8_color_image"] {
-    position: absolute;
-    z-index: 1;
-    top: -23%;
-    left: -21%;
-  }
   .section7_box {
     background: #eeeeee;
     border-radius: 40px;
